@@ -1,3 +1,47 @@
+
+
+
+
+
+
+
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just presentation. For example, a <p> tag indicates that the enclosed text is a paragraph. This is both semantic and presentational because people know what paragraphs are and browsers know how to display them.
+
+
+On the flip side of this equation, tags like <b> and <i> are not semantic, because they define only how the text should look (bold or italic) and do not provide any additional meaning to the markup.
+
+Examples of semantic HTML tags include the header tags <h1> through <h6>, <blockquote>, <code> and <em>. There are many more semantic HTML tags that can be used as you build a standards-compliant website.
+
+
+........................................
+
+Name two big differences between display: block; and display: inline;
+
+
+display: block means that the element is displayed as a block, as paragraphs and headers have always been. A block has some whitespace above and below it and tolerates no HTML elements next to it, except when ordered otherwise (by adding a float declaration to another element, for instance).
+
+display: inline means that the element is displayed inline, inside the current block on the same line. Only when it's between two blocks does the element form an 'anonymous block', that however has the smallest possible width.
+
+...........................................
+
+What are the 4 areas of the box model?
+
+padding area
+content area
+margin area 
+broder area
+..........................................
+
+
+
+
+
+
+............................
+............................
+
 # Sprint Challenge: User Interface and Git - Multi-Page Website
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
