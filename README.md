@@ -1,37 +1,11 @@
 
 
 
-
-
-
-
-If you were to describe semantic HTML to the next cohort of students, what would you say?
-
-Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just presentation. For example, a <p> tag indicates that the enclosed text is a paragraph. This is both semantic and presentational because people know what paragraphs are and browsers know how to display them.
-
-
-On the flip side of this equation, tags like <b> and <i> are not semantic, because they define only how the text should look (bold or italic) and do not provide any additional meaning to the markup.
-
-Examples of semantic HTML tags include the header tags <h1> through <h6>, <blockquote>, <code> and <em>. There are many more semantic HTML tags that can be used as you build a standards-compliant website.
-
-
-........................................
-
-Name two big differences between display: block; and display: inline;
-
-
-display: block means that the element is displayed as a block, as paragraphs and headers have always been. A block has some whitespace above and below it and tolerates no HTML elements next to it, except when ordered otherwise (by adding a float declaration to another element, for instance).
-
-display: inline means that the element is displayed inline, inside the current block on the same line. Only when it's between two blocks does the element form an 'anonymous block', that however has the smallest possible width.
-
 ...........................................
 
 What are the 4 areas of the box model?
 
-padding area
-content area
-margin area 
-broder area
+
 ..........................................
 
 
@@ -76,15 +50,55 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
+
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just presentation. For example, a <p> tag indicates that the enclosed text is a paragraph. This is both semantic and presentational because people know what paragraphs are and browsers know how to display them.
+On the flip side of this equation, tags like <b> and <i> are not semantic, because they define only how the text should look (bold or italic) and do not provide any additional meaning to the markup.
+Examples of semantic HTML tags include the header tags <h1> through <h6>, <blockquote>, <code> and <em>. There are many more semantic HTML tags that can be used as you build a standards-compliant website.
+
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+display: block means that the element is displayed as a block, as paragraphs and headers have always been. A block has some whitespace above and below it and tolerates no HTML elements next to it, except when ordered otherwise (by adding a float declaration to another element, for instance).
+display: inline means that the element is displayed inline, inside the current block on the same line. Only when it's between two blocks does the element form an 'anonymous block', that however has the smallest possible width.
+
+
 3. What are the 4 areas of the box model?
+
+padding area
+content area
+margin area 
+broder area
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+horizontal axis  /  cross-axis
+
+
 5. Explain why git is valuable to a team of developers.
+
+
+1. Performance
+
+Git performs very strongly and reliably when compared to other version control systems. New code changes can be easily commited, version branches can be effortlessly compared and merged, and code can also be optimized to perform better. Algorithms used in developing Git take the full advantage of the deep knowledge stored within, with regards to the attributes used to create real source code file trees, how files are modified over time and what kind of file access patters are used to recall code files as and when needed by developers. Git primarily focus upon the file content itself rather than file names while determining the storage and file version history. Object formats of Git repository files use several combinations of delta encoding and compression techniques to store metadata objects and directory contents.
+
+2. Security
+
+Git is designed specially to maintain the integrity of source code. File contents as well as the relationship between file and directories, tags, commits, versions etc. are secured cryptographically using an algorithm called SHA1 which protects the code and change history against accidental as well as malicious damage. You can be sure to have an authentic content history for your soruce code with Git.
+
+3. Flexibility
+
+A key design objective of Git is the kind of flexibility it offers to support several kinds of nonlinear development workflows and its efficiency in handling both small scale and large scale projects as well as protocols. It is uniquely designed to support tagging and branching operations and store each and every activity carried out by the user as an integral part of "change" history. Not all VCSs support this feature.
+
+4. Wide acceptance
+
+Git offers the type of performance, functionality, security and flexibility that most developers and teams need to develop their projects. When compared to other VCS Git is most widely accepted system owing to its universally accepted usability and performance standards.
+
+5. Quality open source project
+
+Git is a widely supported open source project with over ten years of operational history. People maintaining the project are very well matured and possess a long term vision to meet the long term needs of users by releasing staged upgrades at regular intervals of time to improve functionality as well as usability. Quality of open source software made available on Git is heavily scrutinized a countless number of times and businesses today depend heavily on Git code quality.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

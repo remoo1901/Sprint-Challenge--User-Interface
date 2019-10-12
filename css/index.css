@@ -157,7 +157,7 @@ footer nav a {
 .img1 {
     position: relative; 
     right: 220px;
-	top: 60px;
+	top: 90px;
 
 }
 .container {
@@ -195,7 +195,7 @@ footer nav a {
     
     width: 12.5%;
     height: 100px;
-    background: rgb(53, 40, 126);
+    background: cadetblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -206,7 +206,7 @@ footer nav a {
     
     width: 12.5%;
     height: 100px;
-    background: rgb(197, 139, 15);
+    background: coral;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -217,7 +217,7 @@ footer nav a {
     
     width: 12.5%;
     height: 100px;
-    background: rgb(255, 0, 64);
+    background: crimson;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -228,7 +228,7 @@ footer nav a {
     
     width: 12.5%;
     height: 100px;
-    background: green;
+    background: forestgreen;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -239,7 +239,7 @@ footer nav a {
     
     width: 12.5%;
     height: 100px;
-    background: purple;
+    background: darkorchid;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -250,7 +250,7 @@ footer nav a {
     
     width: 12.5%;
     height: 100px;
-    background: pink;
+    background: hotpink;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -261,7 +261,7 @@ footer nav a {
     
     width: 12.5%;
     height: 100px;
-    background: rgb(55, 14, 133);
+    background: indigo;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -272,7 +272,7 @@ footer nav a {
     
     width: 12.5%;
     height: 100px;
-    background: rgb(39, 66, 219);
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -285,16 +285,16 @@ footer nav a {
 { display: inline-block;
 	position:relative; 
     left: 450px;
-    top: -110px;
-	text-align:center;
+    top: -120px;
     word-spacing: 30px;
     color: gray;
 }
 
 .img2 {
     position: relative; 
-    right: 700px;
-	top: 190px;
+    right: 250px;
+    top: 90px;
+    width: 900px;
 
 }
 
@@ -304,7 +304,7 @@ footer nav a {
 	width: 900px;
     position: relative;
     left: 330px;
-    top: 90px;
+    top: 150px;
     
 	
 
@@ -313,27 +313,36 @@ footer nav a {
 .container-about-page > div {
     display: flex;
      flex-wrap: wrap;
-    width: 400px;
-    height: 300px;
-   padding: 10px;
-   margin: 10px;
-   font-size: 14px;
-  
-   
-   
+    width: 420px;
+    height: 380px;
+   padding: 15px;
+   margin: 15px;
+   font-size: 13px;
+   border-bottom: 1px dashed black;
+   padding-bottom: 20px;
+   font-style: oblique;   
+   line-height: 20px;
    
  }
 
  .info {
 
 	border: 2px solid gray;
-	border-width: 1px;
-	width: 90px;
-	background-color: white;
+	border-width: 2px;
+	width: 100px;
 	font-size: 80%;
-	text-align: center;
-	box-shadow: 1px 1px darkgray;
-	border-radius: 12px;
+    border-radius: 12px;
+    text-align: center;
 }
 
 
+
+.container-about-page .header1 {
+    font-size: 14px;
+    font-style: italic;
+    position: relative;
+    top: -25px;
+    border-bottom: 1px dashed black;
+    width: 890px;
+    padding-bottom: 15px;
+}
