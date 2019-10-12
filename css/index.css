@@ -147,17 +147,18 @@ footer nav a {
 .navigation1 
 { display: inline-block;
 	position:relative; 
-    left: 450px;
+    left: 120px;
     top: -110px;
 	text-align:center;
     word-spacing: 30px;
     color: gray;
+    text-decoration: none;
 }
 
 .img1 {
     position: relative; 
-    right: 220px;
-	top: 90px;
+    right: 10px;
+	top: -80px;
 
 }
 .container {
