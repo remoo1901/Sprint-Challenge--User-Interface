@@ -152,9 +152,13 @@ footer nav a {
 	text-align:center;
     word-spacing: 30px;
     color: gray;
-    text-decoration: none;
 }
 
+a {
+    text-decoration: none;
+    color: gray;
+
+}
 .img1 {
     position: relative; 
     right: 10px;
